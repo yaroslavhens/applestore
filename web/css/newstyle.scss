@@ -1,0 +1,283 @@
+
+
+.modal-window {
+  font-family: 'JosefinSans:400', sans-serif;
+  width: 100%;
+  position: fixed;
+  z-index: 8;
+  display: none;
+      .modal-content {
+        width: 60%;
+        margin: auto;
+        margin-top: 17%;
+        margin-bottom: 555px;
+        background-size: cover;
+        background-position: center center;
+        opacity: 1;
+        p {
+          font-family: 'Montserrat', sans-serif;
+          margin: 0;
+          color:white;
+        }
+        .text {
+          text-align: left;
+          padding: 0 20% 0 20%;
+          font-size: 20px;
+          color: black;
+          font-weight: 400;
+        }
+        .buttons {
+          width: 70%;
+          margin: auto;
+          cursor: pointer;
+          font-size: 20px;
+          margin-bottom: 80px;
+        }
+        .close-mod {
+          width: 100%;
+          padding: 30px;
+          text-align: right;
+          .cursor  {
+            padding: 30px;
+          }
+        }
+      }
+}
+.new-bug {
+  font-family: 'JosefinSans:400', sans-serif;
+  margin-top: 50px;
+  img {
+    width: 35%;
+    padding: 30px 0 0 40px;
+  }
+  .right-bug{
+    color:white;
+    width: 55%;
+    padding: 10% 0 0 2%;
+    p {
+      font-size: 20px;
+    }
+    div {
+      border: 1px  dodgerblue solid ;
+      color: dodgerblue;
+      width: 30%;
+      text-align: center;
+      cursor: pointer;
+      p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+
+      }
+    }
+  }
+}
+.new-bug2 {
+  margin-top: 70px;
+  .left-bug {
+    float: left;
+    text-align: left;
+    width: 35%;
+    margin-top: 40px;
+    p {
+      font-size: 36px;
+    }
+    div {
+      border: 1px dodgerblue solid;
+      color: dodgerblue;
+      width: 70%;
+      text-align: center;
+      cursor: pointer;
+
+      p {
+        font-size: 20px;
+        padding: 10px;
+        margin: 0;
+      }
+    }
+
+  }
+  img {
+    width: 60%;
+  }
+}
+.up-img-bug img {
+  padding-top: 20px ;
+
+}
+.hot-bug {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  .text-hot-pro {
+    font-size: 40px;
+    text-align: center;
+    margin: 90px 0 40px 0;
+    img {
+      width: 7%;
+    }
+  }
+  .hot-prodct {
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    border: 1px white solid;
+    img {
+      margin-left: 10%;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+}
+.hot-prodct:hover {
+  border: 1px black solid;
+}
+
+.nav-cat {
+   width: 80%;
+  font-size: 17px;
+  font-family: 'JosefinSans:400', sans-serif;
+   a {
+     text-decoration: none;
+     color: black;
+   }
+    p {
+      padding-left: 10%;
+    }
+}
+.footer-container {
+  background-color: black;
+  font-family: 'JosefinSans:400', sans-serif;
+  color: white !important;
+  margin-top: 50px;
+}
+.ft-box {
+  div {
+
+    margin-bottom: 50px;
+    .ft-text-tittle {
+      margin: 5px 0 5px 30px;
+      padding: 50px 0 0 0 ;
+      text-transform: uppercase;
+    }
+    .ft-text-list {
+      padding: 0 10px 0 10px;
+      margin: 5px 0 5px 30px;
+      color: #cccccc;
+      cursor: pointer;
+      &:hover {
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.cat-bug-iphone {
+  p {
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    &:active {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      transition: all .1s ease-in;
+    }
+  }
+}
+.cat-gbts {
+  p {
+    display: inline-block;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    &:active {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+      transition: all .1s ease-in;
+    }
+  }
+}
+.iphone-bug {
+  width: 240px;
+  display: inline-block;
+  p {
+    text-align: center;
+  }
+  .img70{
+    width: 65%;
+    padding: 10px 10px 10px 20px;
+    margin-left: 10%;
+  }
+  .img100 {
+    width: 95%;
+  }
+  .img80 {
+    width: 77%;
+    padding: 10px 10px 10px 20px;
+    margin-left: 10%;
+  }
+}
+.center-item {
+  text-align: center;
+  margin-top: 30px;
+
+
+}
+.info-iphone {
+        p   {
+          display: inline-block;
+          background-color: black;
+          color: white;
+          padding: 5px;
+          text-align: left;
+          margin-left: 10px;
+
+          &:active {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            transition: all .1s ease-in
+          }
+        }
+        div {
+          text-align: initial;
+          padding: 10px;
+          font-size: 10px;
+       }
+
+}
+.mr-iphonex {
+  width:550px;
+  padding: 10px;
+  display: inline-block;
+
+  img {
+    width: 100%;
+  }
+}
+.mr-iphonemac {
+  display: inline-block;
+  width: 440px;
+  padding: 10px;
+  img {
+    width: 100%;
+  }
+}
+
+
+
+
+
